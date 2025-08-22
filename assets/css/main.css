@@ -1,15 +1,4 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Jun 29 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
+--*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -897,7 +886,10 @@ section,
   position: relative;
 }
 
-.services .service-item .icon {
+
+
+
+/* .services .service-item .icon {
   background: var(--accent-color);
   display: flex;
   align-items: center;
@@ -908,9 +900,11 @@ section,
   transition: 0.5s;
   border: 1px solid var(--accent-color);
   margin-right: 20px;
-}
+} */
 
-.services .service-item .icon i {
+
+
+/* .services .service-item .icon i {
   color: var(--contrast-color);
   font-size: 24px;
   line-height: 0;
@@ -941,7 +935,8 @@ section,
 .services .service-item .description {
   line-height: 24px;
   font-size: 14px;
-}
+} */
+ 
 
 /*--------------------------------------------------------------
 # Testimonials Section
@@ -1265,6 +1260,10 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
